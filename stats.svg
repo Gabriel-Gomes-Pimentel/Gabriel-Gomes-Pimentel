@@ -35,7 +35,7 @@
   </g>
   <line x1="210.0" y1="80" x2="210.0" y2="165" class="divisor" />
   <g>
-    <text x="525.0" y="112" class="valor" text-anchor="middle">18</text>
+    <text x="525.0" y="112" class="valor" text-anchor="middle">17</text>
     <text x="525.0" y="140" class="rotulo" text-anchor="middle">Repositórios</text>
     <text x="525.0" y="160" class="nota" text-anchor="middle">públicos e ativos</text>
   </g>
