@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200" role="img" aria-label="Gabriel Gomes Pimentel — onde dados viram decisões e código vira impacto">
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="45%" stop-color="#312e81" />
+      <stop offset="75%" stop-color="#4d5bce" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <linearGradient id="onda1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.30" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.22" />
+    </linearGradient>
+    <linearGradient id="onda2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0.30" />
+    </linearGradient>
+    <clipPath id="cantos">
+      <rect x="0" y="0" width="900" height="200" rx="14" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cantos)">
+    <rect width="900" height="200" fill="url(#ceu)" />
+    <path d="M0,140 C150,110 260,168 420,146 C580,124 700,158 900,126 L900,200 L0,200 Z" fill="url(#onda1)" />
+    <path d="M0,162 C180,136 300,182 480,164 C650,148 760,176 900,152 L900,200 L0,200 Z" fill="url(#onda2)" />
+    <circle cx="792" cy="46" r="2.5" fill="#e0e7ff" opacity="0.55" />
+    <circle cx="836" cy="74" r="1.8" fill="#e0e7ff" opacity="0.40" />
+    <circle cx="748" cy="30" r="1.5" fill="#e0e7ff" opacity="0.35" />
+  </g>
+
+  <text x="450" y="88" text-anchor="middle"
+        font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif"
+        font-size="42" font-weight="700" fill="#ffffff" letter-spacing="0.5">Gabriel Gomes Pimentel</text>
+  <text x="450" y="120" text-anchor="middle"
+        font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif"
+        font-size="16" font-weight="400" fill="#c7d2fe">Onde dados viram decisões e código vira impacto</text>
+</svg>

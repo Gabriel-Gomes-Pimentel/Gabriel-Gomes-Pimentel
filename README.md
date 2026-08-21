@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:4d5bce,100:8b5cf6&height=180&section=header&text=Gabriel%20Gomes%20Pimentel&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Onde%20dados%20viram%20decis%C3%B5es%20e%20c%C3%B3digo%20vira%20impacto&descAlignY=55&descSize=16" width="100%" alt="Gabriel Gomes Pimentel" />
+<img src="https://raw.githubusercontent.com/Gabriel-Gomes-Pimentel/Gabriel-Gomes-Pimentel/main/header.svg" width="100%" alt="Gabriel Gomes Pimentel — onde dados viram decisões e código vira impacto" />
 
 <a href="https://gabriel-gomes-pimentel.github.io/portifolio-desenvolvedor/">
   <img src="https://img.shields.io/badge/Portf%C3%B3lio-4d5bce?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfólio" />
@@ -112,6 +112,6 @@ Endless runner em que você desvia de obstáculos e coleta maquininhas em uma ci
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:4d5bce,100:1a1b27&height=100&section=footer" width="100%" alt="" />
+<img src="https://raw.githubusercontent.com/Gabriel-Gomes-Pimentel/Gabriel-Gomes-Pimentel/main/footer.svg" width="100%" alt="" />
 
 </div>
