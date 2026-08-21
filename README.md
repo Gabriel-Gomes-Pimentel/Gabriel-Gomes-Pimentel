@@ -100,14 +100,9 @@ Endless runner em que você desvia de obstáculos e coleta maquininhas em uma ci
 
 <br>
 
-## GitHub em números
-
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Gabriel-Gomes-Pimentel&theme=tokyonight" width="98%" alt="Resumo do perfil" />
-
-<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Gabriel-Gomes-Pimentel&theme=tokyonight" alt="Repositórios por linguagem" />
-<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Gabriel-Gomes-Pimentel&theme=tokyonight" alt="Linguagens mais commitadas" />
+<img src="https://raw.githubusercontent.com/Gabriel-Gomes-Pimentel/Gabriel-Gomes-Pimentel/main/stats.svg" width="98%" alt="Commits, contribuições, repositórios e linguagens" />
 
 </div>
 
