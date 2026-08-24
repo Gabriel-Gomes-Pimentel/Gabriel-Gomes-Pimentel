@@ -24,12 +24,12 @@
   <text x="28" y="48" class="titulo">GitHub em números</text>
   <line x1="28" y1="64" x2="812" y2="64" class="divisor" />
   <g>
-    <text x="105.0" y="112" class="valor" text-anchor="middle">423</text>
+    <text x="105.0" y="112" class="valor" text-anchor="middle">430</text>
     <text x="105.0" y="140" class="rotulo" text-anchor="middle">Commits</text>
     <text x="105.0" y="160" class="nota" text-anchor="middle">últimos 12 meses</text>
   </g>
   <g>
-    <text x="315.0" y="112" class="valor" text-anchor="middle">453</text>
+    <text x="315.0" y="112" class="valor" text-anchor="middle">460</text>
     <text x="315.0" y="140" class="rotulo" text-anchor="middle">Contribuições</text>
     <text x="315.0" y="160" class="nota" text-anchor="middle">últimos 12 meses</text>
   </g>
