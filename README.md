@@ -1,126 +1,80 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
+  <img src="assets/header-light.svg" width="100%" alt="Gabriel Gomes Pimentel. Dados, machine learning e back-end. Engenharia da Computação no Inteli e ADS na FGV, em São Paulo." />
+</picture>
 
-<img src="https://raw.githubusercontent.com/Gabriel-Gomes-Pimentel/Gabriel-Gomes-Pimentel/main/header.svg" width="100%" alt="Gabriel Gomes Pimentel — onde dados viram decisões e código vira impacto" />
+<p>
+  <a href="https://br.linkedin.com/in/gabriel-gomes-pimentel-19040237b"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square" alt="LinkedIn" /></a>
+  <a href="https://gabriel-gomes-pimentel.github.io/portifolio-desenvolvedor/"><img src="https://img.shields.io/badge/Portf%C3%B3lio-24292f?style=flat-square&logo=githubpages&logoColor=white" alt="Portfólio" /></a>
+  <a href="https://gabriel-gomes-pimentel.github.io/portifolio-desenvolvedor/assets/Curriculo_Gabriel_Gomes_Pimentel.pdf"><img src="https://img.shields.io/badge/Curr%C3%ADculo-24292f?style=flat-square&logo=readdotcv&logoColor=white" alt="Currículo em PDF" /></a>
+  <a href="mailto:gabrielgpimentel7@gmail.com"><img src="https://img.shields.io/badge/gabrielgpimentel7%40gmail.com-24292f?style=flat-square&logo=gmail&logoColor=white" alt="E-mail" /></a>
+  <img src="https://img.shields.io/badge/Aberto%20a%20est%C3%A1gio-1a7f37?style=flat-square" alt="Aberto a estágio" />
+</p>
 
-<a href="https://gabriel-gomes-pimentel.github.io/portifolio-desenvolvedor/">
-  <img src="https://img.shields.io/badge/Portf%C3%B3lio-4d5bce?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfólio" />
-</a>
-<a href="https://br.linkedin.com/in/gabriel-gomes-pimentel-19040237b">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-<a href="mailto:gabrielgpimentel7@gmail.com">
-  <img src="https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail" />
-</a>
-<img src="https://img.shields.io/badge/Buscando%20est%C3%A1gio-2ea043?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Buscando estágio" />
+Estudante de **Engenharia da Computação no Inteli** e de **Análise e Desenvolvimento de Sistemas na FGV**. Desenvolvo modelos de machine learning e sistemas back-end para **empresas reais**: no Inteli, cada módulo é um projeto entregue a um parceiro, e já foram três (**Azul**, **ATVOS** e **Cielo**).
 
-</div>
+Gosto da parte do trabalho em que o dado vira decisão. Isso inclui validar sem vazamento de dados, testar o que importa e explicar o resultado em linguagem de negócio.
 
-<br>
-
-## Sobre mim
-
-Tenho 19 anos e curso **Engenharia da Computação** no [Inteli](https://www.inteli.edu.br/) e **Análise e Desenvolvimento de Sistemas** na **FGV IDT**, em São Paulo. No Inteli, todo módulo é um projeto real com uma empresa parceira, por isso quase tudo aqui nasceu de um problema de negócio de verdade: **Azul**, **ATVOS** e **Cielo**.
-
-Trabalho com **Python**, **TypeScript** e **Node.js**, e meu foco tem ido para **ciência e engenharia de dados**: transformar uma base bagunçada em um modelo confiável, sem vazamento de dados e reproduzível, e explicar o resultado em linguagem de negócio.
-
-- 🤖 **Mais recente:** modelo de machine learning que prevê detratores de NPS para a **Azul Linhas Aéreas**, com 51% de acerto na fila de contato contra 20% ao acaso.
-- 🧪 **Como eu trabalho:** testes automatizados, validação temporal, Git flow com code review e Scrum.
-- 🎯 **Buscando:** estágio em **dados**, **machine learning** ou **desenvolvimento back-end**.
+**Procuro estágio em dados, machine learning ou back-end.**
 
 <br>
 
-## Stack
-
-<div align="center">
-
-**Linguagens**
-
-<img src="https://skillicons.dev/icons?i=ts,js,python,html,css" alt="TypeScript, JavaScript, Python, HTML, CSS" />
-
-**Dados e machine learning**
-
-<img src="https://skillicons.dev/icons?i=sklearn,postgres,mysql" alt="scikit-learn, PostgreSQL, MySQL" />
-
-<img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" />
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=plotly&logoColor=white" alt="Matplotlib" />
-<img src="https://img.shields.io/badge/statsmodels-4051B5?style=flat-square&logo=python&logoColor=white" alt="statsmodels" />
-<img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest" />
-
-**Back-end**
-
-<img src="https://skillicons.dev/icons?i=nodejs,express" alt="Node.js, Express" />
-
-**Ferramentas**
-
-<img src="https://skillicons.dev/icons?i=git,github,gitlab,jest,vscode,figma" alt="Git, GitHub, GitLab, Jest, VS Code, Figma" />
-
-</div>
-
-<br>
-
-## Projetos em destaque
-
-### ✈️ [Safira: previsão de detratores de NPS para a Azul](https://github.com/Gabriel-Gomes-Pimentel/safira-azul-nps)
-
-Modelo de machine learning feito com a **Azul Linhas Aéreas** que estima, antes da resposta à pesquisa, quais Clientes tendem a dar nota de Detrator, para a equipe de Experiência do Cliente agir dentro da janela de recuperação. Base de **484 mil respostas em 36 meses**, seis modelos comparados e Gradient Boosting calibrado como solução final.
-
-| | |
-|---|---|
-| 🎯 **Impacto** | Na fila diária de contato, **51 de cada 100** Clientes são Detratores, contra 20 ao acaso |
-| 📈 **Métricas no teste** | Precisão Média **0,52** (2,55× o acaso) · ROC-AUC **0,75** · Brier **0,13** |
-| 🛡️ **Engenharia** | Validação temporal por Cliente, contrato de features sem leakage, **870+ testes** com pytest |
-| 👤 **Meu papel** | Maior número de contribuições do grupo: Regressão Logística e *odds ratio*, comparação de modelos e avaliação final |
-
-`Python` `scikit-learn` `pandas` `statsmodels` `Jupyter` `pytest`
-
-[**→ Repositório**](https://github.com/Gabriel-Gomes-Pimentel/safira-azul-nps) · [**→ Vídeo demonstrativo**](https://youtu.be/c-2v88OHld4) · [**→ Apresentações das sprints**](https://github.com/Gabriel-Gomes-Pimentel/safira-azul-nps/tree/main/documents/extras/apresentacoes)
-
-<br>
+## Projetos com empresas parceiras
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-### 🌱 Safra Control
-CRM agrícola full stack para a **ATVOS**, gerindo parceiros de terras, fornecedores de cana e o fluxo de validação de cadastros. Arquitetura em camadas, autenticação com JWT, controle de acesso por perfil e suíte de testes com Jest e Supertest.
-
-`TypeScript` `Express` `PostgreSQL` `EJS` `Jest`
-
-[**→ Ver repositório**](https://github.com/Gabriel-Gomes-Pimentel/safra-control)
-
+<td width="42%" valign="top">
+<a href="https://github.com/Gabriel-Gomes-Pimentel/safira-azul-nps"><img src="assets/safira.jpg" width="100%" alt="Capa do projeto Safira para a Azul Linhas Aéreas" /></a>
 </td>
-<td width="50%" valign="top">
+<td valign="top">
 
-### 🎮 As Aventuras de Marcielo
-Serious game desenvolvido para a **Cielo** e **aprovado para uso nos treinamentos da empresa**. Simula a rotina do Gerente de Negócios em uma cidade com 12 lojas, com quiz de 4 níveis, 20 sons e HUD de progresso.
+### [Safira](https://github.com/Gabriel-Gomes-Pimentel/safira-azul-nps) · Azul Linhas Aéreas
+**Machine learning · 2026**
 
-`JavaScript` `Phaser 3` `GitLab CI/CD` `Scrum`
+Modelo que prevê, antes da resposta à pesquisa, quais Clientes vão dar nota de Detrator no NPS, para a Azul contatar primeiro quem está em maior risco.
 
-[**→ Ver repositório**](https://github.com/Gabriel-Gomes-Pimentel/projeto-cielo)
+- Na fila diária de contato, **51 de cada 100** Clientes são Detratores, contra 20 ao acaso
+- Base de **484 mil respostas**, seis modelos comparados, validação temporal sem vazamento de dados
+- **870+ testes** automatizados; fiz a modelagem, os modelos interpretáveis e a avaliação final
+
+`Python` `scikit-learn` `pandas` `statsmodels` `pytest`
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="42%" valign="top">
+<a href="https://github.com/Gabriel-Gomes-Pimentel/safra-control"><img src="assets/safra-control.jpg" width="100%" alt="Tela de parceiros do Safra Control" /></a>
+</td>
+<td valign="top">
 
-### 🧠 Prompt Tutor
-API em Node.js e Express que extrai requisitos e decisões arquiteturais de prompts técnicos e mantém um documento de memória arquitetural, seguindo a ISO/IEC/IEEE 42010.
+### [Safra Control](https://github.com/Gabriel-Gomes-Pimentel/safra-control) · ATVOS
+**Full stack · 2026**
 
-`JavaScript` `Node.js` `Express` `LLM`
+CRM que substituiu as planilhas da área de Negócios Agrícolas da ATVOS no controle de parceiros de terra e fornecedores de cana.
 
-[**→ Ver repositório**](https://github.com/Gabriel-Gomes-Pimentel/Prompt_Tutor)
+- **Aprovado pela ATVOS e em produção**
+- Arquitetura em camadas, JWT, três perfis de acesso e auditoria de toda alteração
+- Escrevi a suíte de testes com Jest e Supertest e refatorei o sistema sem quebrar nenhuma rota
+
+`TypeScript` `Node.js` `Express` `PostgreSQL` `Jest`
 
 </td>
-<td width="50%" valign="top">
+</tr>
+<tr>
+<td width="42%" valign="top">
+<a href="https://github.com/Gabriel-Gomes-Pimentel/projeto-cielo"><img src="assets/marcielo.jpg" width="100%" alt="Mapa da cidade do jogo As Aventuras de Marcielo" /></a>
+</td>
+<td valign="top">
 
-### 💼 Portfólio pessoal
-Site de portfólio construído em HTML, CSS e JavaScript puro, com animações suaves, design minimalista e formulário de contato integrado ao Formspree.
+### [As Aventuras de Marcielo](https://github.com/Gabriel-Gomes-Pimentel/projeto-cielo) · Cielo
+**Serious game · 2026**
 
-`HTML` `CSS` `JavaScript` `GitHub Pages`
+Jogo web que simula a rotina do Gerente de Negócios da Cielo em uma cidade com 12 lojas e um quiz de 4 níveis.
 
-[**→ Ver ao vivo**](https://gabriel-gomes-pimentel.github.io/portifolio-desenvolvedor/)
+- **Aprovado para uso nos treinamentos da Cielo**
+- Desenvolvido em Scrum, com CI/CD no GitLab
+
+`JavaScript` `Phaser 3` `GitLab CI/CD`
 
 </td>
 </tr>
@@ -128,27 +82,38 @@ Site de portfólio construído em HTML, CSS e JavaScript puro, com animações s
 
 <br>
 
+## Stack
+
+| Área | Tecnologias |
+|---|---|
+| **Dados e ML** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![statsmodels](https://img.shields.io/badge/statsmodels-4051B5?style=flat-square) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white) |
+| **Back-end** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-24292f?style=flat-square&logo=express&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
+| **Qualidade** | ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) ![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white) ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white) |
+| **Ferramentas** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-24292f?style=flat-square&logo=github&logoColor=white) ![GitLab CI/CD](https://img.shields.io/badge/GitLab%20CI%2FCD-FC6D26?style=flat-square&logo=gitlab&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white) ![Scrum](https://img.shields.io/badge/Scrum-24292f?style=flat-square) |
+
+<br>
+
+## Outros projetos
+
+- **[Prompt Tutor](https://github.com/Gabriel-Gomes-Pimentel/Prompt_Tutor)**: API em Node.js que extrai requisitos e decisões de arquitetura de prompts técnicos, seguindo a ISO/IEC/IEEE 42010.
+- **[PromptTutor web](https://github.com/Gabriel-Gomes-Pimentel/PromptTutor)**: front-end estático com backend serverless na Vercel que mantém a chave da API do Gemini fora do navegador.
+- **[Refatoração de code smells](https://github.com/Gabriel-Gomes-Pimentel/es2-pratica-avaliada-1)**: prática de Engenharia de Software na FGV, com refatoração em Python coberta por testes em pytest.
+- **[Portfólio](https://gabriel-gomes-pimentel.github.io/portifolio-desenvolvedor/)**: site pessoal em HTML, CSS e JavaScript puro, publicado no GitHub Pages.
+
+<br>
+
 ## Formação
 
-| Instituição | Curso | |
+| Instituição | Curso | Foco |
 |---|---|---|
-| **Inteli** | Engenharia da Computação | Aprendizado por projetos com empresas parceiras (Cielo, ATVOS, Azul) |
-| **FGV IDT** | Análise e Desenvolvimento de Sistemas | Engenharia de software: refatoração, testes com pytest e processos ágeis |
+| **Inteli** | Engenharia da Computação | Aprendizado por projetos com empresas parceiras |
+| **FGV** | Análise e Desenvolvimento de Sistemas | Engenharia de software, testes e processos ágeis |
 
 <br>
 
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg" />
+  <img src="assets/stats-light.svg" width="100%" alt="Commits, contribuições, repositórios e linguagens no GitHub" />
+</picture>
 
-<img src="https://raw.githubusercontent.com/Gabriel-Gomes-Pimentel/Gabriel-Gomes-Pimentel/main/stats.svg" width="98%" alt="Commits, contribuições, repositórios e linguagens" />
-
-</div>
-
-<br>
-
-<img src="https://raw.githubusercontent.com/Gabriel-Gomes-Pimentel/Gabriel-Gomes-Pimentel/output/snake.svg" alt="Animação da cobrinha percorrendo o gráfico de contribuições" width="100%" />
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Gabriel-Gomes-Pimentel/Gabriel-Gomes-Pimentel/main/footer.svg" width="100%" alt="" />
-
-</div>
+<sub>A maior parte dos commits dos projetos com parceiros fica no GitLab do Inteli e não aparece nas contagens acima.</sub>

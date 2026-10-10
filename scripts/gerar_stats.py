@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Gera stats.svg com metricas reais do perfil, sem depender de servicos de terceiros.
+"""Gera assets/stats-light.svg e assets/stats-dark.svg com metricas reais do perfil, sem depender de servicos de terceiros.
 
 Servicos gratuitos de card (github-readme-stats, profile-summary-cards) caem em
 rate limit e mostram "ERROR!!!" no README. Aqui o SVG e commitado no proprio
@@ -13,7 +13,7 @@ import os
 import urllib.request
 
 USUARIO = "Gabriel-Gomes-Pimentel"
-SAIDA = "stats.svg"
+SAIDA = "assets/stats-%s.svg"
 
 CONSULTA = """
 {
@@ -72,55 +72,41 @@ def escapar(t):
     return t.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def gerar_svg(metricas):
-    largura, altura = 840, 200
+TEMAS = {
+    "light": {"fundo": "#ffffff", "borda": "#d0d7de", "valor": "#0f172a", "rotulo": "#2563eb", "nota": "#57606a", "divisor": "#eaeef2"},
+    "dark": {"fundo": "#0d1117", "borda": "#30363d", "valor": "#f0f6fc", "rotulo": "#58a6ff", "nota": "#9198a1", "divisor": "#21262d"},
+}
+FONTE = "-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
+
+
+def gerar_svg(metricas, tema):
+    c = TEMAS[tema]
+    largura, altura = 900, 132
     col = largura / len(metricas)
     blocos = []
     for i, (rotulo, valor, nota) in enumerate(metricas):
         cx = col * i + col / 2
         blocos.append(
-            f'''  <g>
-    <text x="{cx:.1f}" y="112" class="valor" text-anchor="middle">{escapar(valor)}</text>
-    <text x="{cx:.1f}" y="140" class="rotulo" text-anchor="middle">{escapar(rotulo)}</text>
-    <text x="{cx:.1f}" y="160" class="nota" text-anchor="middle">{escapar(nota)}</text>
-  </g>'''
+            f'''  <text x="{cx:.1f}" y="62" text-anchor="middle" font-family="{FONTE}" font-size="32" font-weight="700" fill="{c['valor']}">{escapar(valor)}</text>
+  <text x="{cx:.1f}" y="88" text-anchor="middle" font-family="{FONTE}" font-size="13" font-weight="600" fill="{c['rotulo']}">{escapar(rotulo)}</text>
+  <text x="{cx:.1f}" y="106" text-anchor="middle" font-family="{FONTE}" font-size="11" fill="{c['nota']}">{escapar(nota)}</text>'''
         )
         if i:
             x = col * i
-            blocos.append(f'  <line x1="{x:.1f}" y1="80" x2="{x:.1f}" y2="165" class="divisor" />')
+            blocos.append(f'  <line x1="{x:.1f}" y1="34" x2="{x:.1f}" y2="104" stroke="{c['divisor']}" />')
 
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{largura}" height="{altura}" viewBox="0 0 {largura} {altura}" role="img" aria-label="Estatísticas do GitHub de {USUARIO}">
-  <defs>
-    <linearGradient id="borda" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#8b5cf6" />
-      <stop offset="50%" stop-color="#4d5bce" />
-      <stop offset="100%" stop-color="#38bdf8" />
-    </linearGradient>
-    <linearGradient id="titulo" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#c4b5fd" />
-      <stop offset="100%" stop-color="#7dd3fc" />
-    </linearGradient>
-  </defs>
-  <style>
-    .fundo {{ fill: #0d1117; }}
-    .moldura {{ fill: none; stroke: url(#borda); stroke-width: 1.5; }}
-    .titulo {{ font: 600 19px 'Segoe UI', Ubuntu, Sans-Serif; fill: url(#titulo); }}
-    .valor {{ font: 700 40px 'Segoe UI', Ubuntu, Sans-Serif; fill: #e6edf3; }}
-    .rotulo {{ font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8b5cf6; }}
-    .nota {{ font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #7d8590; }}
-    .divisor {{ stroke: #21262d; stroke-width: 1; }}
-  </style>
-  <rect class="fundo" x="0.75" y="0.75" width="{largura - 1.5}" height="{altura - 1.5}" rx="12" />
-  <rect class="moldura" x="0.75" y="0.75" width="{largura - 1.5}" height="{altura - 1.5}" rx="12" />
-  <text x="28" y="48" class="titulo">GitHub em números</text>
-  <line x1="28" y1="64" x2="{largura - 28}" y2="64" class="divisor" />
+  <rect x="0.5" y="0.5" width="{largura - 1}" height="{altura - 1}" rx="12" fill="{c['fundo']}" stroke="{c['borda']}" />
 {chr(10).join(blocos)}
 </svg>
 '''
 
 
 if __name__ == "__main__":
-    svg = gerar_svg(montar(buscar()))
-    with open(SAIDA, "w", encoding="utf-8") as f:
-        f.write(svg)
-    print("gerado %s (%d bytes)" % (SAIDA, len(svg)))
+    metricas = montar(buscar())
+    for tema in TEMAS:
+        saida = SAIDA % tema
+        svg = gerar_svg(metricas, tema)
+        with open(saida, "w", encoding="utf-8") as f:
+            f.write(svg)
+        print("gerado %s (%d bytes)" % (saida, len(svg)))
