@@ -1,0 +1,13 @@
+# sistema
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.env
