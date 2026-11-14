@@ -4,7 +4,7 @@
 </picture>
 
 <p align="center">
-  <a href="https://br.linkedin.com/in/gabriel-gomes-pimentel-19040237b"><img src="https://skillicons.dev/icons?i=linkedin" height="34" alt="LinkedIn" /></a>&nbsp;
+  <a href="https://www.linkedin.com/in/gabriel-gomes-pimentel/"><img src="https://skillicons.dev/icons?i=linkedin" height="34" alt="LinkedIn" /></a>&nbsp;
   <a href="mailto:gabrielgpimentel7@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" height="34" alt="E-mail" /></a>
   <br>
   <a href="https://gabriel-gomes-pimentel.github.io/portifolio-desenvolvedor/"><b>Portfólio</b></a> ·
@@ -12,7 +12,7 @@
   Aberto a estágio em dados, ML ou back-end
 </p>
 
-Desenvolvo modelos de machine learning e sistemas back-end para empresas reais. No Inteli, cada módulo é um projeto entregue a um parceiro, e já foram três: **Azul**, **ATVOS** e **Cielo**.
+Estudo Engenharia da Computação no Inteli com foco em dados e IA. Desenvolvo modelos de machine learning e sistemas back-end para empresas reais. No Inteli, cada módulo é um projeto entregue a um parceiro, e já foram três: **Azul**, **ATVOS** e **Cielo**.
 
 ## Projetos
 
@@ -58,6 +58,12 @@ Serious game que simula a rotina do Gerente de Negócios.
 </tr>
 </table>
 
+## Em andamento e outros trabalhos
+
+- **Refúgios climáticos** · SEMASA Santo André · Dispositivo IoT que mede temperatura e umidade em pontos de sombra e envia os dados para um painel na nuvem. Em andamento.
+- **TROP Cargo** · Inteli Júnior · Plataforma de CRM e cotações para uma empresa de logística. Em andamento.
+- **JusAjuda** · [jusajuda.com.br](https://jusajuda.com.br) · Integração do site ao banco de dados, publicação em domínio próprio e otimização do código e da API.
+
 ## Stack
 
 <picture>
@@ -68,6 +74,8 @@ Serious game que simula a rotina do Gerente de Negócios.
 ## Formação
 
 **Inteli** · Engenharia da Computação&emsp;|&emsp;**FGV** · Análise e Desenvolvimento de Sistemas
+
+Desenvolvedor na **Inteli Júnior** desde maio de 2026
 
 <br>
 
